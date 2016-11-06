@@ -8,7 +8,7 @@ MAINTAINER Tarun Bansal <tarunbhm@gmail.com>
 RUN apk add --no-cache bash
 
 # set SBT version
-ENV SBT_VERSION 0.13.13
+ENV SBT_VERSION 0.13.11
 ENV SBT_JAR     https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/$SBT_VERSION/sbt-launch.jar
 
 # download SBT
